@@ -318,11 +318,12 @@
           "type": "group",
           "settings": {
             "size": {
-              "width": "100%",
+              "width": "50%",
               "height": "100%",
               "@media (--mobile)": {
                 "height": "auto"
-              }
+              },
+              "flex-grow": "0"
             },
             "spacing": {
               "padding-block-start": "60px",
@@ -393,7 +394,9 @@
           "padding-block-end": "40px",
           "padding-inline-start": "20px"
         },
-        "layout": {},
+        "layout": {
+          "flex-direction": "row"
+        },
         "color_scheme": ""
       }
     },
@@ -439,8 +442,7 @@
                   "@media (--mobile)": {
                     "height": "auto",
                     "width": "100%"
-                  },
-                  "flex-grow": ""
+                  }
                 },
                 "spacing": {
                   "padding-block-start": "0px",
@@ -501,9 +503,14 @@
                 "image_GKwqQi": {
                   "type": "image",
                   "settings": {
+                    "image": "shopify://shop_images/Coffee_Package_Mockup.jpg",
                     "object_fit": "cover",
                     "spacing": {},
-                    "size": {},
+                    "size": {
+                      "width": "100%",
+                      "flex-grow": "1",
+                      "height": "100%"
+                    },
                     "layout": {}
                   }
                 }
@@ -517,7 +524,6 @@
               "settings": {
                 "size": {
                   "width": "45%",
-                  "flex-grow": "",
                   "height": "100%"
                 },
                 "spacing": {
