@@ -493,8 +493,8 @@
                 },
                 "layout": {
                   "flex-direction": "column",
-                  "row-gap": "0px",
-                  "column-gap": "0px"
+                  "row-gap": "10px",
+                  "column-gap": "10px"
                 },
                 "color_scheme": ""
               },
@@ -544,43 +544,21 @@
                 "color_scheme": ""
               },
               "blocks": {
-                "group_gMqcX8": {
-                  "type": "group",
+                "image_p4eEF4": {
+                  "type": "image",
                   "settings": {
+                    "image": "shopify://shop_images/Coffee_Package_Mockup.jpg",
+                    "object_fit": "cover",
+                    "spacing": {},
                     "size": {
-                      "height": "100%"
+                      "height": "auto"
                     },
-                    "spacing": {
-                      "padding-block-start": "0px",
-                      "padding-block-end": "0px",
-                      "padding-inline-start": "0px",
-                      "padding-inline-end": "0px"
-                    },
-                    "layout": {},
-                    "color_scheme": ""
-                  },
-                  "blocks": {
-                    "image_NjpVVR": {
-                      "type": "image",
-                      "settings": {
-                        "image": "shopify://shop_images/Coffee_Package_Mockup.jpg",
-                        "object_fit": "cover",
-                        "spacing": {},
-                        "size": {
-                          "width": "fit-content",
-                          "flex-grow": "0"
-                        },
-                        "layout": {}
-                      }
-                    }
-                  },
-                  "block_order": [
-                    "image_NjpVVR"
-                  ]
+                    "layout": {}
+                  }
                 }
               },
               "block_order": [
-                "group_gMqcX8"
+                "image_p4eEF4"
               ]
             },
             "group_prrAQi": {
