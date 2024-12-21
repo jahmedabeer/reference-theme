@@ -551,7 +551,7 @@
                     "object_fit": "cover",
                     "spacing": {},
                     "size": {
-                      "height": "auto"
+                      "height": "100%"
                     },
                     "layout": {}
                   }
