@@ -723,6 +723,7 @@
               "type": "icon",
               "settings": {
                 "icon": "return",
+                "image_upload": "shopify://shop_images/Main_d624f226-0a89-4fe1-b333-0d1548b43c06.jpg",
                 "width": 50
               }
             },
@@ -1015,42 +1016,77 @@
                   "width": "100%"
                 },
                 "spacing": {
-                  "padding-block-start": "20px",
-                  "padding-inline-end": "20px",
-                  "padding-block-end": "20px",
-                  "padding-inline-start": "20px"
+                  "padding-block-start": "0px",
+                  "padding-inline-end": "0px",
+                  "padding-block-end": "0px",
+                  "padding-inline-start": "0px"
                 },
                 "layout": {
                   "flex-direction": "column",
-                  "align-items": "flex-start"
+                  "align-items": "flex-start",
+                  "row-gap": "0px",
+                  "column-gap": "0px"
                 },
-                "color_scheme": "scheme-3"
+                "color_scheme": "scheme-1"
               },
               "blocks": {
-                "heading_VPgxzb": {
-                  "type": "heading",
+                "image_fgjq36": {
+                  "type": "image",
                   "settings": {
-                    "heading": "Column",
-                    "heading_size": "h3",
-                    "alignment": "start",
+                    "image": "shopify://shop_images/Coffee_Package_Mockup.jpg",
+                    "object_fit": "cover",
+                    "spacing": {},
                     "size": {},
-                    "spacing": {}
+                    "layout": {}
                   }
                 },
-                "text_yPYLLx": {
-                  "type": "text",
+                "group_yzVjWB": {
+                  "type": "group",
                   "settings": {
-                    "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-                    "text_style": "",
-                    "alignment": "start",
                     "size": {},
-                    "spacing": {}
-                  }
+                    "spacing": {
+                      "padding-block-start": "20px",
+                      "padding-inline-end": "20px",
+                      "padding-block-end": "20px",
+                      "padding-inline-start": "20px"
+                    },
+                    "layout": {
+                      "flex-direction": "column",
+                      "align-items": "flex-start"
+                    },
+                    "color_scheme": "scheme-1"
+                  },
+                  "blocks": {
+                    "heading_wb6rKB": {
+                      "type": "heading",
+                      "settings": {
+                        "heading": "Column",
+                        "heading_size": "h3",
+                        "alignment": "start",
+                        "size": {},
+                        "spacing": {}
+                      }
+                    },
+                    "text_BraEMi": {
+                      "type": "text",
+                      "settings": {
+                        "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+                        "text_style": "",
+                        "alignment": "start",
+                        "size": {},
+                        "spacing": {}
+                      }
+                    }
+                  },
+                  "block_order": [
+                    "heading_wb6rKB",
+                    "text_BraEMi"
+                  ]
                 }
               },
               "block_order": [
-                "heading_VPgxzb",
-                "text_yPYLLx"
+                "image_fgjq36",
+                "group_yzVjWB"
               ]
             },
             "group_cxUYkQ": {
@@ -1077,7 +1113,7 @@
                   "settings": {
                     "heading": "Column",
                     "heading_size": "h3",
-                    "alignment": "start",
+                    "alignment": "end",
                     "size": {},
                     "spacing": {}
                   }
