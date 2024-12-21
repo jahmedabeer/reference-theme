@@ -478,7 +478,7 @@
               "settings": {
                 "size": {
                   "width": "50%",
-                  "height": "fit-content",
+                  "height": "auto",
                   "flex-grow": "1",
                   "@media (--mobile)": {
                     "height": "auto",
@@ -507,7 +507,7 @@
                     "spacing": {},
                     "size": {
                       "width": "100%",
-                      "height": "fit-content"
+                      "height": "100%"
                     },
                     "layout": {}
                   }
