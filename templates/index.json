@@ -552,8 +552,8 @@
                     "spacing": {},
                     "size": {
                       "height": "100%",
-                      "width": "fit-content",
-                      "flex-grow": "0"
+                      "width": "100%",
+                      "flex-grow": "1"
                     },
                     "layout": {}
                   }
