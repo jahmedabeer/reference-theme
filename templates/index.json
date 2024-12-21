@@ -500,23 +500,43 @@
                 "color_scheme": ""
               },
               "blocks": {
-                "image_GKwqQi": {
-                  "type": "image",
+                "group_gMqcX8": {
+                  "type": "group",
                   "settings": {
-                    "image": "shopify://shop_images/Coffee_Package_Mockup.jpg",
-                    "object_fit": "cover",
-                    "spacing": {},
                     "size": {
-                      "width": "100%",
-                      "flex-grow": "1",
                       "height": "100%"
                     },
-                    "layout": {}
-                  }
+                    "spacing": {
+                      "padding-block-start": "0px",
+                      "padding-block-end": "0px",
+                      "padding-inline-start": "0px",
+                      "padding-inline-end": "0px"
+                    },
+                    "layout": {},
+                    "color_scheme": ""
+                  },
+                  "blocks": {
+                    "image_NjpVVR": {
+                      "type": "image",
+                      "settings": {
+                        "image": "shopify://shop_images/Coffee_Package_Mockup.jpg",
+                        "object_fit": "cover",
+                        "spacing": {},
+                        "size": {
+                          "width": "fit-content",
+                          "flex-grow": "0"
+                        },
+                        "layout": {}
+                      }
+                    }
+                  },
+                  "block_order": [
+                    "image_NjpVVR"
+                  ]
                 }
               },
               "block_order": [
-                "image_GKwqQi"
+                "group_gMqcX8"
               ]
             },
             "group_prrAQi": {
