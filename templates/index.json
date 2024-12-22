@@ -887,7 +887,7 @@
           "padding-inline-start": "20px"
         },
         "layout": {
-          "flex-direction": "column",
+          "flex-direction": "row",
           "justify-content": "center"
         },
         "color_scheme": "scheme-2"
