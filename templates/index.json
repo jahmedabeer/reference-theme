@@ -627,6 +627,7 @@
         "group_KpA4cH",
         "group_LrBxgw"
       ],
+      "disabled": true,
       "settings": {
         "spacing": {
           "padding-block-start": "60px",
@@ -997,6 +998,7 @@
         },
         "group_g7dzhV": {
           "type": "group",
+          "disabled": true,
           "settings": {
             "size": {},
             "spacing": {
@@ -1231,6 +1233,7 @@
         "group_g7dzhV",
         "group_adbzpL"
       ],
+      "disabled": true,
       "settings": {
         "spacing": {
           "padding-block-start": "40px",
